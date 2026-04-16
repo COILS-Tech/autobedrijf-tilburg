@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="title">
+  <title>Autobedrijf Smolders B.V.</title>
+  <rect width="120" height="120" rx="30" fill="#12181f"/>
+  <circle cx="60" cy="60" r="42" fill="none" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="2"/>
+  <path
+    d="M22 74C32 52 48 42 73 42H98"
+    fill="none"
+    stroke="#C67D3D"
+    stroke-linecap="round"
+    stroke-width="8"
+  />
+  <path
+    d="M22 90H58C78 90 92 80 99 58"
+    fill="none"
+    stroke="#F7EFE6"
+    stroke-linecap="round"
+    stroke-width="8"
+  />
+  <circle cx="30" cy="90" r="4.5" fill="#C67D3D"/>
+</svg>
