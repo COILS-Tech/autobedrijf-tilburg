@@ -171,9 +171,13 @@ function renderPageLinkCard(slug, withSummary = true) {
 
 function renderFeatureCard(slug) {
   const item = pageBySlug(slug);
+  
+  // Add premium ribbon to featured services
+  const isPremium = ['onderhoud', 'autobanden', 'apk'].includes(slug);
 
   return `
     <a class="service-card" href="${slugPath(slug)}" data-reveal>
+      ${isPremium ? '<div class="premium-ribbon">Premium</div>' : ''}
       <div class="service-card__image-wrap">
         <img class="service-card__image" src="${escapeHtml(item.image)}" alt="${escapeHtml(item.title)}">
       </div>
@@ -339,6 +343,10 @@ function renderHome() {
 
           <div class="showcase" data-reveal>
             <article class="showcase__primary">
+              <div class="premium-badge">
+                <span>✓</span>
+                <span>Erkend Specialist</span>
+              </div>
               <img src="/assets/images/hero-1.jpg" alt="Werkplaatsfoto van Autobedrijf Smolders">
               <div class="showcase__overlay">
                 <p class="eyebrow eyebrow--light">Betrouwbare autoservice</p>
@@ -353,6 +361,62 @@ function renderHome() {
             <div class="showcase__stack">
               <img src="/assets/images/hero-2.jpg" alt="Monteur in werkplaats">
               <img src="/assets/images/hero-3.jpg" alt="Technische inspectie in de werkplaats">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Premium Trust Banner -->
+      <section class="section section--tight">
+        <div class="container">
+          <div class="trust-banner" data-reveal>
+            <div class="trust-banner__content">
+              <div>
+                <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem; color: var(--ink);">Premium autoservice in Tilburg</h3>
+                <p style="color: var(--muted); max-width: 600px;">Erkend vakmanschap met hoogwaardige service voor al uw auto-onderhoud</p>
+              </div>
+              <div class="trust-banner__badges">
+                <div class="trust-badge">
+                  <div class="trust-badge__icon">⚡</div>
+                  <span class="trust-badge__label">Snelle Service</span>
+                </div>
+                <div class="trust-badge">
+                  <div class="trust-badge__icon">✓</div>
+                  <span class="trust-badge__label">Erkend</span>
+                </div>
+                <div class="trust-badge">
+                  <div class="trust-badge__icon">★</div>
+                  <span class="trust-badge__label">Top Kwaliteit</span>
+                </div>
+                <div class="trust-badge">
+                  <div class="trust-badge__icon">🔧</div>
+                  <span class="trust-badge__label">Vakkundig</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Stats Counter Section -->
+      <section class="section" style="padding: 2rem 0;">
+        <div class="container">
+          <div class="stats-counter" data-reveal>
+            <div class="stats-counter__item">
+              <span class="stats-counter__number" data-count="1000">0</span>
+              <span class="stats-counter__label">Tevreden Klanten</span>
+            </div>
+            <div class="stats-counter__item">
+              <span class="stats-counter__number" data-count="15">0</span>
+              <span class="stats-counter__label">Jaar Ervaring</span>
+            </div>
+            <div class="stats-counter__item">
+              <span class="stats-counter__number" data-count="5000">0</span>
+              <span class="stats-counter__label">Services per Jaar</span>
+            </div>
+            <div class="stats-counter__item">
+              <span class="stats-counter__number" data-count="100">0</span>
+              <span class="stats-counter__label">% Betrouwbaar</span>
             </div>
           </div>
         </div>
@@ -391,6 +455,52 @@ function renderHome() {
         </div>
       </section>
 
+      <div class="section-divider"></div>
+
+      <!-- Premium Features Grid -->
+      <section class="section">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow">Premium Service</p>
+            <h2>Waarom kiezen voor Autobedrijf Smolders?</h2>
+            <p>Hoogwaardige service met persoonlijke aandacht en professioneel vakmanschap</p>
+          </div>
+
+          <div class="feature-grid">
+            <div class="feature-card" data-reveal>
+              <div class="feature-card__icon">🏆</div>
+              <h3 class="feature-card__title">Erkend Vakmanschap</h3>
+              <p class="feature-card__text">Gecertificeerde monteurs met jarenlange ervaring in autoservice</p>
+            </div>
+            <div class="feature-card" data-reveal>
+              <div class="feature-card__icon">⚡</div>
+              <h3 class="feature-card__title">Snelle Service</h3>
+              <p class="feature-card__text">Veel reparaties klaar terwijl u wacht, zonder lange wachttijden</p>
+            </div>
+            <div class="feature-card" data-reveal>
+              <div class="feature-card__icon">💎</div>
+              <h3 class="feature-card__title">Premium Kwaliteit</h3>
+              <p class="feature-card__text">Alleen hoogwaardige onderdelen en materialen voor uw auto</p>
+            </div>
+            <div class="feature-card" data-reveal>
+              <div class="feature-card__icon">💰</div>
+              <h3 class="feature-card__title">Eerlijke Prijzen</h3>
+              <p class="feature-card__text">Transparante prijzen zonder verborgen kosten of verrassingen</p>
+            </div>
+            <div class="feature-card" data-reveal>
+              <div class="feature-card__icon">📋</div>
+              <h3 class="feature-card__title">Duidelijke Communicatie</h3>
+              <p class="feature-card__text">U weet altijd precies wat er gebeurt met uw auto</p>
+            </div>
+            <div class="feature-card" data-reveal>
+              <div class="feature-card__icon">🤝</div>
+              <h3 class="feature-card__title">Persoonlijke Benadering</h3>
+              <p class="feature-card__text">Geen nummertje maar persoonlijk contact met uw monteur</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="section section--tinted">
         <div class="container">
           <div class="section-heading" data-reveal>
@@ -404,6 +514,61 @@ function renderHome() {
 
           <div class="directory-grid">
             ${siteData.footerGroups.map((group) => renderDirectoryGroup(group)).join("")}
+          </div>
+        </div>
+      </section>
+
+      <!-- Premium Testimonials Section -->
+      <section class="testimonials">
+        <div class="container">
+          <div class="section-heading" data-reveal>
+            <p class="eyebrow">Klantbeoordelingen</p>
+            <h2>Wat onze klanten zeggen</h2>
+            <p>Ontdek waarom klanten kiezen voor de betrouwbare service van Autobedrijf Smolders</p>
+          </div>
+
+          <div class="testimonials__grid">
+            <article class="testimonial-card" data-reveal>
+              <div class="testimonial-card__quote">
+                Uitstekende service! De monteurs nemen de tijd om alles duidelijk uit te leggen. 
+                Mijn auto rijdt weer perfect en de prijzen zijn eerlijk.
+              </div>
+              <div class="testimonial-card__author">
+                <div class="testimonial-card__avatar">JV</div>
+                <div class="testimonial-card__info">
+                  <div class="testimonial-card__name">Jan van der Berg</div>
+                  <div class="testimonial-card__rating">★★★★★</div>
+                </div>
+              </div>
+            </article>
+
+            <article class="testimonial-card" data-reveal>
+              <div class="testimonial-card__quote">
+                Heel tevreden over de APK-keuring en het onderhoud. Snelle afhandeling en 
+                persoonlijke benadering. Zeker een aanrader!
+              </div>
+              <div class="testimonial-card__author">
+                <div class="testimonial-card__avatar">MD</div>
+                <div class="testimonial-card__info">
+                  <div class="testimonial-card__name">Maria Dekker</div>
+                  <div class="testimonial-card__rating">★★★★★</div>
+                </div>
+              </div>
+            </article>
+
+            <article class="testimonial-card" data-reveal>
+              <div class="testimonial-card__quote">
+                Professionele werkplaats met vakkundige monteurs. De bandenservice is top 
+                en de prijzen zijn scherp. Kom hier al jaren!
+              </div>
+              <div class="testimonial-card__author">
+                <div class="testimonial-card__avatar">PJ</div>
+                <div class="testimonial-card__info">
+                  <div class="testimonial-card__name">Peter Janssen</div>
+                  <div class="testimonial-card__rating">★★★★★</div>
+                </div>
+              </div>
+            </article>
           </div>
         </div>
       </section>
@@ -695,6 +860,179 @@ function setYear() {
   }
 }
 
+// Premium Features: Stats Counter Animation
+function animateStatsCounter() {
+  const counters = document.querySelectorAll('.stats-counter__number');
+  
+  if (counters.length === 0 || !('IntersectionObserver' in window)) {
+    return;
+  }
+  
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const counter = entry.target;
+        const target = parseInt(counter.getAttribute('data-count')) || 0;
+        const duration = 2000;
+        const increment = target / (duration / 16);
+        let current = 0;
+        
+        const updateCounter = () => {
+          current += increment;
+          if (current < target) {
+            counter.textContent = Math.ceil(current).toLocaleString();
+            requestAnimationFrame(updateCounter);
+          } else {
+            counter.textContent = target.toLocaleString();
+          }
+        };
+        
+        updateCounter();
+        observer.unobserve(counter);
+      }
+    });
+  }, { threshold: 0.5 });
+  
+  counters.forEach(counter => observer.observe(counter));
+}
+
+// Premium Features: Staggered Card Animations
+function addStaggeredAnimations() {
+  const grids = document.querySelectorAll('.service-grid, .value-grid, .testimonials__grid, .feature-grid');
+  
+  grids.forEach(grid => {
+    const cards = grid.querySelectorAll('[data-reveal]');
+    cards.forEach((card, index) => {
+      card.style.setProperty('--delay', `${index * 0.08}s`);
+    });
+  });
+}
+
+// Premium Features: Enhanced Header Scrolling
+function enhancePremiumHeader() {
+  const header = document.querySelector('.site-header');
+  if (!header) return;
+  
+  let ticking = false;
+  
+  function updateHeaderStyle() {
+    const scrollY = window.pageYOffset;
+    
+    if (scrollY > 100) {
+      header.classList.add('scrolled');
+      header.style.boxShadow = '0 12px 48px rgba(18, 36, 61, 0.14), 0 0 0 1px rgba(212, 175, 55, 0.1)';
+      header.style.borderBottomColor = 'rgba(212, 175, 55, 0.25)';
+    } else {
+      header.classList.remove('scrolled');
+      header.style.boxShadow = '0 4px 24px rgba(18, 36, 61, 0.04)';
+      header.style.borderBottomColor = 'rgba(212, 175, 55, 0.15)';
+    }
+    
+    ticking = false;
+  }
+  
+  function requestTick() {
+    if (!ticking) {
+      requestAnimationFrame(updateHeaderStyle);
+      ticking = true;
+    }
+  }
+  
+  window.addEventListener('scroll', requestTick, { passive: true });
+  updateHeaderStyle();
+}
+
+// Premium Features: Parallax Enhancement
+function addPremiumParallax() {
+  const parallaxElements = document.querySelectorAll('.showcase__primary, .showcase__overlay, .premium-badge, .trust-banner');
+  
+  if (parallaxElements.length === 0 || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    return;
+  }
+  
+  let ticking = false;
+  
+  function updateParallax() {
+    const scrolled = window.pageYOffset;
+    
+    parallaxElements.forEach((element) => {
+      const rect = element.getBoundingClientRect();
+      const isVisible = rect.top < window.innerHeight && rect.bottom > 0;
+      
+      if (isVisible) {
+        const speed = element.classList.contains('showcase__overlay') ? 0.05 : 0.12;
+        const yPos = -(scrolled * speed);
+        
+        if (element.classList.contains('premium-badge')) {
+          element.style.transform = `translateY(${yPos * 0.5}px) translateX(-50%)`;
+        } else {
+          element.style.transform = `translateY(${yPos}px)`;
+        }
+      }
+    });
+    
+    ticking = false;
+  }
+  
+  function requestTick() {
+    if (!ticking) {
+      requestAnimationFrame(updateParallax);
+      ticking = true;
+    }
+  }
+  
+  window.addEventListener('scroll', requestTick, { passive: true });
+  updateParallax();
+}
+
+// Premium Features: Card Hover 3D Effect
+function add3DCardEffect() {
+  const cards = document.querySelectorAll('.service-card, .value-card, .testimonial-card, .feature-card');
+  
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    return;
+  }
+  
+  cards.forEach(card => {
+    card.addEventListener('mousemove', (e) => {
+      const rect = card.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      const y = e.clientY - rect.top;
+      
+      const centerX = rect.width / 2;
+      const centerY = rect.height / 2;
+      
+      const rotateX = (y - centerY) / 20;
+      const rotateY = (centerX - x) / 20;
+      
+      card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-8px) scale(1.02)`;
+    });
+    
+    card.addEventListener('mouseleave', () => {
+      card.style.transform = '';
+    });
+  });
+}
+
+// Premium Features: Smooth Scroll Enhancement
+function enhanceSmoothScroll() {
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      const targetId = this.getAttribute('href');
+      if (targetId === '#') return;
+      
+      const targetElement = document.querySelector(targetId);
+      if (targetElement) {
+        e.preventDefault();
+        targetElement.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
+    });
+  });
+}
+
 updateMeta();
 app.innerHTML = `${renderHeader()}${activeSlug === "home" ? renderHome() : renderContentPage()}${renderFooter()}`;
 bindMenu();
@@ -702,3 +1040,11 @@ bindReveals();
 addScrollEffects();
 enhanceSiteHeader();
 setYear();
+
+// Initialize Premium Features
+addStaggeredAnimations();
+animateStatsCounter();
+enhancePremiumHeader();
+addPremiumParallax();
+add3DCardEffect();
+enhanceSmoothScroll();
