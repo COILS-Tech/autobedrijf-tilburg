@@ -344,8 +344,8 @@ function renderHome() {
                 <p class="eyebrow eyebrow--light">Betrouwbare autoservice</p>
                 <h2>Vakwerk dat helder uitgelegd wordt.</h2>
                 <p>
-                  De nieuwe site bundelt alle pagina's van de huidige website in een rustiger,
-                  moderner en overzichtelijker geheel.
+                  Professioneel onderhoud, reparaties en advies voor uw auto in Tilburg.
+                  Transparant, betrouwbaar en met persoonlijke aandacht.
                 </p>
               </div>
             </article>
@@ -361,7 +361,7 @@ function renderHome() {
       <section class="section section--tight">
         <div class="container">
           <div class="trust-strip" data-reveal>
-            <p>Het volledige dienstenpakket van de huidige Smolders website, opnieuw opgebouwd voor een sterkere eerste indruk.</p>
+            <p>Compleet dienstenpakket voor uw auto: van dagelijks onderhoud tot seizoensgebonden service en verkoop.</p>
             <div class="pill-row">
               <span>Onderhoud</span>
               <span>APK</span>
@@ -378,10 +378,10 @@ function renderHome() {
         <div class="container">
           <div class="section-heading" data-reveal>
             <p class="eyebrow">Hoofdservices</p>
-            <h2>De belangrijkste Smolders pagina's, opnieuw vormgegeven.</h2>
+            <h2>De belangrijkste diensten van Autobedrijf Smolders overzichtelijk bij elkaar.</h2>
             <p>
-              De site is nu opgebouwd rond duidelijke servicepagina's met een betere hiërarchie,
-              consistente uitstraling en sneller te begrijpen informatie.
+              Van onderhoud en APK tot banden, airco en occasions: hier vindt u snel de informatie
+              die u nodig heeft voor uw auto.
             </p>
           </div>
 
@@ -394,11 +394,11 @@ function renderHome() {
       <section class="section section--tinted">
         <div class="container">
           <div class="section-heading" data-reveal>
-            <p class="eyebrow">Alle pagina's</p>
-            <h2>De volledige inhoud van de huidige website, logisch gegroepeerd.</h2>
+            <p class="eyebrow">Alle diensten</p>
+            <h2>Al onze services overzichtelijk bij elkaar.</h2>
             <p>
-              Autobanden, onderhoud, verkoop, acties en contact hebben nu ieder een duidelijke plek,
-              inclusief alle onderliggende servicepagina's uit de bestaande site.
+              Van autobanden en onderhoud tot verkoop, acties en contact: alles wat u nodig heeft
+              voor uw auto vindt u hier duidelijk georganiseerd.
             </p>
           </div>
 
@@ -412,10 +412,10 @@ function renderHome() {
         <div class="container">
           <div class="section-heading" data-reveal>
             <p class="eyebrow">Waarom Smolders</p>
-            <h2>Een moderne website mag nog steeds nuchter en vertrouwd voelen.</h2>
+            <h2>Waarom klanten voor Autobedrijf Smolders kiezen.</h2>
             <p>
-              De inhoud blijft dicht bij wat Autobedrijf Smolders nu al uitstraalt: vakmanschap,
-              bereikbaarheid, duidelijke uitleg en service waar klanten voor terugkomen.
+              Voor onderhoud, reparatie, banden, airco en occasions staan persoonlijk contact,
+              duidelijke afspraken en betrouwbare service centraal.
             </p>
           </div>
 

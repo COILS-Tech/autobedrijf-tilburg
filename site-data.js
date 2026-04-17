@@ -70,7 +70,7 @@ window.SITE_DATA = {
     eyebrow: "Autobedrijf in Tilburg - Reeshof",
     title: "Betrouwbare autoservice in Tilburg voor onderhoud, APK, banden en occasions.",
     lead:
-      "Autobedrijf Smolders B.V. blijft het vertrouwde adres voor onderhoud, reparatie, APK, banden, airco en occasions. Deze vernieuwde versie behoudt alle huidige diensten en pagina's, maar presenteert ze met meer rust, meer kwaliteit en een duidelijkere structuur.",
+      "Autobedrijf Smolders B.V. is uw vertrouwde adres voor onderhoud, reparatie, APK, banden, airco en occasions. Van eenvoudig onderhoud tot uitgebreide reparaties: alles onder één dak met transparante communicatie en deskundige service.",
     featuredSlugs: ["autobanden", "onderhoud", "verkoop", "apk", "airco", "acties"],
     seasonalSlugs: ["winter-controle-dag", "lucht-in-banden-dag"],
     stats: [
@@ -97,23 +97,23 @@ window.SITE_DATA = {
       },
       {
         title: "Deskundig onderhoud",
-        text: "Van kleine beurt tot remmen, olie, accu's en uitlaten: alles blijft logisch gebundeld."
+        text: "Van kleine beurt tot remmen, olie, accu's en uitlaten: alles onder één dak bij ervaren monteurs."
       },
       {
-        title: "Sterkere online indruk",
-        text: "De website oogt rustiger, professioneler en laat sneller zien wat Smolders allemaal doet."
+        title: "Persoonlijke service",
+        text: "Geen nummertje, maar persoonlijk contact. Wij nemen de tijd voor uw vragen en zorgen."
       },
       {
-        title: "Volledige paginastuctuur",
-        text: "Niet alleen de homepage, maar ook alle onderliggende servicepagina's zijn meegenomen."
+        title: "Compleet servicepakket",
+        text: "Van bandenservice en APK tot airco, occasions en seizoensacties: alles voor uw auto."
       },
       {
-        title: "Bekende branding",
-        text: "Het bestaande Smolders blauw en de live logo-assets zijn direct in de nieuwe site verwerkt."
+        title: "Vertrouwd adres in Tilburg",
+        text: "Al jaren het vaste adres voor betrouwbaar onderhoud en reparatie in de wijk Reeshof."
       },
       {
-        title: "Klaar voor vervanging",
-        text: "Deze site is lokaal opgebouwd als complete vervanger van de huidige WordPress site."
+        title: "Transparante prijzen",
+        text: "Vooraf duidelijkheid over kosten en werkzaamheden, zonder verrassingen achteraf."
       }
     ]
   },
@@ -125,7 +125,7 @@ window.SITE_DATA = {
       metaDescription:
         "Autobedrijf Smolders B.V. in Tilburg voor onderhoud, APK, autobanden, airco, acties en occasions.",
       eyebrow: "Home",
-      summary: "Overzicht van alle hoofdservices en pagina's van Autobedrijf Smolders B.V."
+      summary: "Compleet overzicht van alle diensten van Autobedrijf Smolders B.V."
     },
     autobanden: {
       title: "Autobanden",
@@ -144,8 +144,8 @@ window.SITE_DATA = {
         "Hulp met bandmaat, draagvermogen en snelheidscode"
       ],
       body: [
-        "Op de huidige Smolders website staat de autobandenpagina vooral in het teken van uitleg: welke markeringen staan er op een band, wat betekenen breedte, hoogteverhouding, velgmaat en draagvermogen, en welke band past bij uw gebruik.",
-        "In deze vernieuwde versie blijft dat praktische karakter behouden, maar wordt de informatie overzichtelijker aangeboden. Zo wordt sneller duidelijk welke band geschikt is voor welk seizoen, wanneer een wissel slim is en wanneer opslag of specialistisch advies handig is."
+        "Bij Autobedrijf Smolders helpen we u bij het kiezen van de juiste autobanden. We leggen uit welke markeringen op een band staan, wat breedte, hoogteverhouding, velgmaat en draagvermogen betekenen, en welke band het beste past bij uw gebruik.",
+        "De informatie wordt overzichtelijk aangeboden zodat snel duidelijk wordt welke band geschikt is voor welk seizoen, wanneer een wissel slim is en wanneer opslag of specialistisch advies handig is."
       ],
       cards: [
         {
@@ -189,8 +189,8 @@ window.SITE_DATA = {
         "Geschikt voor wie vooral in lente, zomer en vroege herfst rijdt"
       ],
       body: [
-        "De live Smolders pagina benadrukt dat zomerbanden licht rijden en geschikt zijn zodra de temperatuur langere tijd boven de 7 graden komt. Daarmee sluiten ze goed aan op chauffeurs die in warmere seizoenen comfort en efficientie willen combineren.",
-        "In de nieuwe opzet ligt de nadruk op praktisch gebruik: wanneer overstappen verstandig is, voor welk rijprofiel zomerbanden logisch zijn en waarom ze in hoge temperaturen beter passen dan winterbanden of compromisbanden."
+        "Zomerbanden rijden licht en zijn geschikt zodra de temperatuur langere tijd boven de 7 graden komt. Daarmee sluiten ze goed aan op chauffeurs die in warmere seizoenen comfort en efficientie willen combineren.",
+        "De nadruk ligt op praktisch gebruik: wanneer overstappen verstandig is, voor welk rijprofiel zomerbanden logisch zijn en waarom ze in hoge temperaturen beter passen dan winterbanden of all-seasonbanden."
       ],
       cards: [
         {
@@ -225,8 +225,8 @@ window.SITE_DATA = {
         "Slim voor wie in de winter veel rijdt of vroeg op pad moet"
       ],
       body: [
-        "Op de huidige Smolders site wordt uitgelegd dat winterbanden niet alleen nuttig zijn op sneeuw, maar juist ook op nat en koud wegdek duidelijk verschil kunnen maken. Dat maakt ze relevant voor dagelijkse ritten naar werk, school of afspraken in de winterperiode.",
-        "In deze versie wordt die boodschap helderder uitgewerkt: winterbanden zijn vooral een veiligheidskeuze. Ze helpen bij tractie, remweg en stabiliteit wanneer normale banden in lage temperaturen minder grip leveren."
+        "Winterbanden zijn niet alleen nuttig op sneeuw, maar maken juist ook op nat en koud wegdek duidelijk verschil. Dat maakt ze relevant voor dagelijkse ritten naar werk, school of afspraken in de winterperiode.",
+        "Winterbanden zijn vooral een veiligheidskeuze. Ze helpen bij tractie, remweg en stabiliteit wanneer normale banden in lage temperaturen minder grip leveren."
       ],
       cards: [
         {
@@ -297,8 +297,8 @@ window.SITE_DATA = {
         "Controle en montage vragen om het juiste advies"
       ],
       body: [
-        "De live site legt uit dat run-flatbanden door hun versterkte zijkanten na een lekke band nog een beperkte afstand kunnen overbruggen. Dat vergroot het gevoel van veiligheid en voorkomt dat u direct op een onhandige of onveilige plek stilvalt.",
-        "In de vernieuwde pagina is de uitleg compacter en duidelijker: run-flat is vooral relevant wanneer uw auto daarvoor geschikt is en wanneer u zekerheid belangrijk vindt. Tegelijk blijft goed advies belangrijk, omdat niet iedere auto of bestuurder hetzelfde nodig heeft."
+        "Run-flatbanden hebben versterkte zijkanten waardoor ze na een lekke band nog een beperkte afstand kunnen overbruggen. Dat vergroot het gevoel van veiligheid en voorkomt dat u direct op een onhandige of onveilige plek stilvalt.",
+        "Run-flat is vooral relevant wanneer uw auto daarvoor geschikt is en wanneer u zekerheid belangrijk vindt. Tegelijk blijft goed advies belangrijk, omdat niet iedere auto of bestuurder hetzelfde nodig heeft."
       ],
       cards: [
         {
@@ -405,8 +405,8 @@ window.SITE_DATA = {
         "Minder gedoe thuis met transport en ruimtegebrek"
       ],
       body: [
-        "De bestaande Smolders site noemt bandenopslag vooral als praktische oplossing voor klanten die geen plek hebben om zomer- of winterbanden thuis te bewaren.",
-        "In deze versie wordt de meerwaarde breder uitgelegd: opslag bespaart ruimte, voorkomt gesjouw en helpt banden in goede conditie te houden tot de volgende wissel."
+        "Bandenopslag is een praktische oplossing voor klanten die geen plek hebben om zomer- of winterbanden thuis te bewaren.",
+        "Opslag bespaart ruimte, voorkomt gesjouw en helpt banden in goede conditie te houden tot de volgende wissel."
       ],
       cards: [
         {
@@ -440,8 +440,8 @@ window.SITE_DATA = {
         "Controle op vitale punten van de auto"
       ],
       body: [
-        "De bestaande onderhoudspagina van Smolders legt de nadruk op betrouwbaarheid: de auto wordt op veel vitale punten gecontroleerd en defecte onderdelen worden alleen vervangen in overleg met de klant.",
-        "Dat uitgangspunt blijft in de vernieuwde site overeind. Onderhoud draait hier niet alleen om een lijstje werkzaamheden, maar om kostenbeheersing, veiligheid en een auto die voorspelbaar blijft presteren."
+        "Bij Autobedrijf Smolders draait onderhoud om betrouwbaarheid: de auto wordt op veel vitale punten gecontroleerd en defecte onderdelen worden alleen vervangen in overleg met de klant.",
+        "Onderhoud gaat niet alleen om een lijstje werkzaamheden, maar om kostenbeheersing, veiligheid en een auto die voorspelbaar blijft presteren."
       ],
       cards: [
         {
@@ -485,8 +485,8 @@ window.SITE_DATA = {
         "Onder meer filters, vloeistoffen en remsysteem"
       ],
       body: [
-        "Volgens de huidige Smolders website wordt een auto bij de grote beurt op ongeveer 90 belangrijke punten gecontroleerd. Daarbij komen bijvoorbeeld remmen, filters en vloeistoffen aan bod.",
-        "De vernieuwde pagina maakt die service begrijpelijker: een grote beurt is vooral het moment om de auto grondig na te lopen, slijtage vroeg te signaleren en dure vervolgschade voor te blijven."
+        "Bij de grote beurt wordt een auto op ongeveer 90 belangrijke punten gecontroleerd. Daarbij komen bijvoorbeeld remmen, filters en vloeistoffen aan bod.",
+        "Een grote beurt is vooral het moment om de auto grondig na te lopen, slijtage vroeg te signaleren en dure vervolgschade voor te blijven."
       ],
       cards: [
         {
@@ -521,8 +521,8 @@ window.SITE_DATA = {
         "Controle op remmen, filters, lekkages en roest"
       ],
       body: [
-        "Op de huidige Smolders website wordt de kleine beurt beschreven als een controle op ongeveer 25 belangrijke punten, waaronder remmen, filters, lekkages en roestvorming.",
-        "In de nieuwe versie wordt het nut duidelijker verwoord: de kleine beurt is het vaste ritme waarmee u problemen eerder opvangt en uw auto betrouwbaarder houdt tussen grote onderhoudsmomenten."
+        "De kleine beurt is een controle op ongeveer 25 belangrijke punten, waaronder remmen, filters, lekkages en roestvorming.",
+        "Het is het vaste ritme waarmee u problemen eerder opvangt en uw auto betrouwbaarder houdt tussen grote onderhoudsmomenten."
       ],
       cards: [
         {
@@ -557,8 +557,8 @@ window.SITE_DATA = {
         "Preventieve inspectie is verstandig"
       ],
       body: [
-        "De Smolders pagina over remmen maakt duidelijk dat een goed werkend remsysteem cruciaal is voor veilig weggebruik. Niet alleen slijtage van blokken, maar ook de staat van remschijven bepaalt hoe betrouwbaar de auto reageert.",
-        "In de nieuwe opzet blijft dat veiligheidsverhaal centraal staan. Deze pagina helpt klanten sneller begrijpen waarom piepen, trillingen of langer remmen niet genegeerd moeten worden."
+        "Een goed werkend remsysteem is cruciaal voor veilig weggebruik. Niet alleen slijtage van blokken, maar ook de staat van remschijven bepaalt hoe betrouwbaar de auto reageert.",
+        "Het veiligheidsverhaal staat centraal. We helpen klanten begrijpen waarom piepen, trillingen of langer remmen niet genegeerd moeten worden."
       ],
       cards: [
         {
@@ -629,8 +629,8 @@ window.SITE_DATA = {
         "Relevante signalen zijn rook, lawaai en storingen"
       ],
       body: [
-        "De huidige Smolders tekst legt uit dat uitlaatservice tegenwoordig breder is dan alleen pijpen en dempers. Katalysatoren en andere emissieonderdelen horen daar ook bij.",
-        "In de vernieuwde pagina is dat vertaald naar duidelijke klanttaal: een gezond uitlaatsysteem helpt de auto stiller, schoner en betrouwbaarder te laten rijden en kan direct van invloed zijn op de APK."
+        "Uitlaatservice is tegenwoordig breder dan alleen pijpen en dempers. Katalysatoren en andere emissieonderdelen horen daar ook bij.",
+        "Een gezond uitlaatsysteem helpt de auto stiller, schoner en betrouwbaarder te laten rijden en kan direct van invloed zijn op de APK."
       ],
       cards: [
         {
@@ -665,8 +665,8 @@ window.SITE_DATA = {
         "Preventief testen voorkomt pech"
       ],
       body: [
-        "De huidige Smolders pagina noemt de accu terecht een van de belangrijkste onderdelen van de auto. Zonder een sterke accu ontstaan problemen met starten en met voorzieningen zoals verlichting en ruitenwissers.",
-        "In de nieuwe versie wordt de informatie praktischer gemaakt: wie veel korte ritten maakt of merkt dat de auto minder vlot start, doet er goed aan de accu tijdig te laten controleren."
+        "De accu is een van de belangrijkste onderdelen van de auto. Zonder een sterke accu ontstaan problemen met starten en met voorzieningen zoals verlichting en ruitenwissers.",
+        "Praktisch advies: wie veel korte ritten maakt of merkt dat de auto minder vlot start, doet er goed aan de accu tijdig te laten controleren."
       ],
       cards: [
         {
@@ -736,8 +736,8 @@ window.SITE_DATA = {
         "Proefrit en inruil mogelijk"
       ],
       body: [
-        "De huidige verkoopspagina draait om vertrouwen: klanten moeten een occasion rustig kunnen bekijken, goed advies krijgen en zonder druk kunnen bepalen of een auto bij hen past.",
-        "In de vernieuwde versie wordt datzelfde gevoel vertaald naar een professionelere presentatie. Verkoop is hier niet los van onderhoud, maar onderdeel van hetzelfde Smolders verhaal van betrouwbaarheid en service."
+        "Bij Autobedrijf Smolders draait verkoop om vertrouwen: klanten kunnen een occasion rustig bekijken, krijgen goed advies en kunnen zonder druk bepalen of een auto bij hen past.",
+        "Verkoop is niet los van onderhoud, maar onderdeel van hetzelfde Smolders verhaal van betrouwbaarheid en service."
       ],
       cards: [
         {
@@ -808,8 +808,8 @@ window.SITE_DATA = {
         "Vaak te combineren met onderhoud"
       ],
       body: [
-        "Op de Smolders website wordt de APK omschreven als een momentopname: de auto wordt op dat moment beoordeeld, maar de keuring is geen garantie voor de rest van het jaar.",
-        "Dat blijft een belangrijk uitgangspunt in de nieuwe versie. De pagina helpt klanten vooral begrijpen wat de APK wel en niet is, en waarom combineren met onderhoud vaak de slimste route is."
+        "De APK is een momentopname: de auto wordt op dat moment beoordeeld, maar de keuring is geen garantie voor de rest van het jaar.",
+        "We helpen klanten begrijpen wat de APK wel en niet is, en waarom combineren met onderhoud vaak de slimste route is."
       ],
       cards: [
         {
@@ -843,8 +843,8 @@ window.SITE_DATA = {
         "Ook nuttig tegen nare geuren en beslagen ruiten"
       ],
       body: [
-        "De huidige Smolders pagina legt uit dat airco's onderhoud nodig hebben omdat het koelvermogen afneemt wanneer het systeem na verloop van tijd koudemiddel verliest.",
-        "In de vernieuwde pagina staat daarom de combinatie van comfort en storingspreventie centraal: airco service is niet alleen prettig in de zomer, maar helpt ook het systeem gezond houden in de rest van het jaar."
+        "Airco's hebben onderhoud nodig omdat het koelvermogen afneemt wanneer het systeem na verloop van tijd koudemiddel verliest.",
+        "De combinatie van comfort en storingspreventie staat centraal: airco service is niet alleen prettig in de zomer, maar helpt ook het systeem gezond houden in de rest van het jaar."
       ],
       cards: [
         {
@@ -878,8 +878,8 @@ window.SITE_DATA = {
         "Praktische actiedagen vanuit de werkplaats"
       ],
       body: [
-        "Op de huidige site draait deze pagina om nuttige en begrijpelijke acties, zoals een zomercheck, een wintercontroledag en het gratis controleren van bandenspanning op vaste momenten.",
-        "In de vernieuwde site is dat vertaald naar een overzichtelijke actierubriek. Het doel blijft hetzelfde: klanten op tijd attenderen op kleine controles die onderweg veel verschil kunnen maken."
+        "De actiepagina biedt nuttige en begrijpelijke acties, zoals een zomercheck, een wintercontroledag en het gratis controleren van bandenspanning op vaste momenten.",
+        "Het doel: klanten op tijd attenderen op kleine controles die onderweg veel verschil kunnen maken."
       ],
       cards: [
         {
@@ -915,8 +915,8 @@ window.SITE_DATA = {
         "Praktisch voor woon-werk en gezinsritten"
       ],
       body: [
-        "De huidige Smolders pagina beschrijft de wintercontroledag als een extra check voor momenten waarop u niet verrast wilt worden door startproblemen, slecht zicht of winterse ongemakken.",
-        "In de nieuwe versie wordt dat omgezet naar een duidelijk seizoensmoment: laat uw auto tijdig nalopen op punten die juist in de winter extra kritisch zijn."
+        "De wintercontroledag is een extra check voor momenten waarop u niet verrast wilt worden door startproblemen, slecht zicht of winterse ongemakken.",
+        "Een duidelijk seizoensmoment: laat uw auto tijdig nalopen op punten die juist in de winter extra kritisch zijn."
       ],
       cards: [
         {
@@ -951,8 +951,8 @@ window.SITE_DATA = {
         "Beter voor veiligheid, verbruik en slijtage"
       ],
       body: [
-        "De huidige Smolders website legt uit dat auto's met de juiste bandenspanning veiliger, zuiniger en schoner rijden. Het is een eenvoudig punt dat vaak over het hoofd wordt gezien.",
-        "In de vernieuwde pagina wordt dat voordeel directer gemaakt: bandenspanning is een van de makkelijkste manieren om remweg, grip, slijtage en brandstofverbruik positief te beinvloeden."
+        "Auto's met de juiste bandenspanning rijden veiliger, zuiniger en schoner. Het is een eenvoudig punt dat vaak over het hoofd wordt gezien.",
+        "Bandenspanning is een van de makkelijkste manieren om remweg, grip, slijtage en brandstofverbruik positief te beïnvloeden."
       ],
       cards: [
         {
@@ -986,8 +986,8 @@ window.SITE_DATA = {
         "autobedrijf@smoldersbv.nl"
       ],
       body: [
-        "De live contactpagina benadrukt dat klanten voor allerlei vragen terecht kunnen: van onderhoud en reparatie tot APK, verkoop en algemene informatie.",
-        "Deze vernieuwde contactpagina houdt die brede bereikbaarheid vast, maar presenteert de belangrijkste gegevens rustiger en sneller scanbaar."
+        "Voor allerlei vragen kunt u terecht bij Autobedrijf Smolders: van onderhoud en reparatie tot APK, verkoop en algemene informatie.",
+        "Alle belangrijke contactgegevens zijn hier overzichtelijk en snel te vinden."
       ],
       cards: [
         {
@@ -1009,25 +1009,25 @@ window.SITE_DATA = {
       navLabel: "Privacy policy",
       metaTitle: "Privacy policy | Autobedrijf Smolders B.V.",
       metaDescription:
-        "Privacyverklaring voor de vernieuwde website van Autobedrijf Smolders B.V.",
+        "Privacyverklaring van Autobedrijf Smolders B.V.",
       eyebrow: "Juridisch",
-      summary: "Beknopte privacyverklaring voor deze statische website en contactgegevens van Smolders.",
+      summary: "Beknopte privacyverklaring en contactgegevens van Autobedrijf Smolders.",
       lead:
-        "Deze vervangende website is licht en statisch opgebouwd. Daardoor worden er minder gegevens verwerkt dan op een traditionele WordPress site.",
+        "Deze website is licht en statisch opgebouwd. Daardoor worden er zo min mogelijk persoonlijke gegevens verwerkt.",
       image: "/assets/images/hero-3.jpg",
       facts: [
-        "Geen ingebouwd account- of reactiegedeelte",
+        "Geen gebruikersaccounts of inloggedeelte",
         "Contact loopt vooral via telefoon en e-mail",
-        "Bij toevoeging van formulieren moet deze pagina worden aangevuld"
+        "Bij toevoeging van formulieren wordt deze pagina aangevuld"
       ],
       body: [
-        "Voor de huidige lokale versie van deze website geldt dat er geen gebruikersaccounts, reacties of ingewikkelde trackingvoorzieningen zijn ingebouwd. Contact vindt vooral plaats via telefoon, e-mail en externe route- of kaartlinks.",
-        "Wanneer deze site later wordt uitgebreid met formulieren, analytics of andere externe diensten, moet de privacyverklaring opnieuw worden beoordeeld en waar nodig worden aangevuld."
+        "Voor deze website geldt dat er geen gebruikersaccounts, reacties of uitgebreide trackingvoorzieningen zijn ingebouwd. Contact vindt vooral plaats via telefoon, e-mail en externe route- of kaartlinks.",
+        "Wanneer de website later wordt uitgebreid met formulieren, analytics of andere externe diensten, wordt de privacyverklaring opnieuw beoordeeld en waar nodig aangevuld."
       ],
       cards: [
         {
-          title: "Zo weinig mogelijk verwerking",
-          text: "De nieuwe site is bewust simpel gehouden om onnodige gegevensverwerking te beperken."
+          title: "Beperkte gegevensverwerking",
+          text: "De website is bewust eenvoudig gehouden om onnodige gegevensverwerking te beperken."
         },
         {
           title: "Externe links",
@@ -1044,11 +1044,11 @@ window.SITE_DATA = {
       navLabel: "Cookie policy EU",
       metaTitle: "Cookie policy EU | Autobedrijf Smolders B.V.",
       metaDescription:
-        "Cookieverklaring voor de vernieuwde website van Autobedrijf Smolders B.V.",
+        "Cookieverklaring van Autobedrijf Smolders B.V.",
       eyebrow: "Juridisch",
-      summary: "Beknopte cookieverklaring voor deze statische vervangingssite.",
+      summary: "Beknopte cookieverklaring voor de website.",
       lead:
-        "Deze vernieuwde lokale site gebruikt op dit moment geen uitgebreide cookie-oplossing zoals de huidige WordPress installatie.",
+        "Deze website gebruikt op dit moment geen uitgebreide cookie-oplossing.",
       image: "/assets/images/hero-2.jpg",
       facts: [
         "Geen cookiebanner of marketingstack ingebouwd",
@@ -1056,8 +1056,8 @@ window.SITE_DATA = {
         "Bij toekomstige analytics of embeds opnieuw beoordelen"
       ],
       body: [
-        "De huidige live website gebruikt een WordPress cookie-oplossing. Deze vervangende versie is statisch opgebouwd en bevat nu geen vergelijkbare marketing- of voorkeurencookies.",
-        "Als er later analyse-tools, embedded kaarten, video's of andere third-party scripts aan deze site worden toegevoegd, dan moet de cookieverklaring opnieuw worden uitgebreid en technisch worden afgestemd."
+        "Deze website is statisch opgebouwd en bevat geen marketing- of voorkeurencookies.",
+        "Als er later analyse-tools, embedded kaarten, video's of andere third-party scripts worden toegevoegd, wordt de cookieverklaring opnieuw uitgebreid en technisch afgestemd."
       ],
       cards: [
         {
@@ -1066,11 +1066,11 @@ window.SITE_DATA = {
         },
         {
           title: "Functioneel eerst",
-          text: "De huidige focus ligt op bereikbaarheid, duidelijke content en snelle pagina-opbouw."
+          text: "De focus ligt op bereikbaarheid, duidelijke content en snelle pagina-opbouw."
         },
         {
-          title: "Voor livegang opnieuw controleren",
-          text: "Voeg pas definitieve cookieclaims toe wanneer de uiteindelijke hosting en scripts vaststaan."
+          title: "Aanpasbaar bij uitbreiding",
+          text: "Bij toevoeging van nieuwe functionaliteit wordt de cookieverklaring waar nodig aangepast."
         }
       ]
     }

@@ -1,0 +1,19 @@
+{
+  "name": "Autobedrijf Smolders B.V.",
+  "short_name": "Smolders",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#2960A9",
+  "background_color": "#f4f8fc",
+  "display": "standalone"
+}
