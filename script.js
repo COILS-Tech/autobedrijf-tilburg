@@ -620,6 +620,74 @@ function bindReveals() {
   targets.forEach((target) => observer.observe(target));
 }
 
+function addScrollEffects() {
+  // Add smooth parallax effect to hero images
+  const showcaseImages = document.querySelectorAll('.showcase__primary, .showcase__stack img, .page-hero__media');
+  
+  if (showcaseImages.length === 0 || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    return;
+  }
+
+  let ticking = false;
+  
+  function updateParallax() {
+    const scrolled = window.pageYOffset;
+    
+    showcaseImages.forEach((img) => {
+      const rect = img.getBoundingClientRect();
+      const isVisible = rect.top < window.innerHeight && rect.bottom > 0;
+      
+      if (isVisible) {
+        const speed = 0.15;
+        const yPos = -(scrolled * speed);
+        img.style.transform = `translateY(${yPos}px)`;
+      }
+    });
+    
+    ticking = false;
+  }
+  
+  function requestTick() {
+    if (!ticking) {
+      window.requestAnimationFrame(updateParallax);
+      ticking = true;
+    }
+  }
+  
+  window.addEventListener('scroll', requestTick, { passive: true });
+  updateParallax();
+}
+
+function enhanceSiteHeader() {
+  const header = document.querySelector('.site-header');
+  if (!header) return;
+  
+  let lastScroll = 0;
+  let ticking = false;
+  
+  function updateHeader() {
+    const currentScroll = window.pageYOffset;
+    
+    if (currentScroll > 100) {
+      header.style.boxShadow = '0 8px 32px rgba(18, 36, 61, 0.12)';
+    } else {
+      header.style.boxShadow = '0 4px 24px rgba(18, 36, 61, 0.04)';
+    }
+    
+    lastScroll = currentScroll;
+    ticking = false;
+  }
+  
+  function requestTick() {
+    if (!ticking) {
+      window.requestAnimationFrame(updateHeader);
+      ticking = true;
+    }
+  }
+  
+  window.addEventListener('scroll', requestTick, { passive: true });
+}
+
 function setYear() {
   const year = document.getElementById("year");
   if (year) {
@@ -631,4 +699,6 @@ updateMeta();
 app.innerHTML = `${renderHeader()}${activeSlug === "home" ? renderHome() : renderContentPage()}${renderFooter()}`;
 bindMenu();
 bindReveals();
+addScrollEffects();
+enhanceSiteHeader();
 setYear();

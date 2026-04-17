@@ -68,7 +68,7 @@ window.SITE_DATA = {
   ],
   home: {
     eyebrow: "Autobedrijf in Tilburg - Reeshof",
-    title: "De complete Smolders website, moderner opgebouwd en sterker vormgegeven.",
+    title: "Betrouwbare autoservice in Tilburg voor onderhoud, APK, banden en occasions.",
     lead:
       "Autobedrijf Smolders B.V. blijft het vertrouwde adres voor onderhoud, reparatie, APK, banden, airco en occasions. Deze vernieuwde versie behoudt alle huidige diensten en pagina's, maar presenteert ze met meer rust, meer kwaliteit en een duidelijkere structuur.",
     featuredSlugs: ["autobanden", "onderhoud", "verkoop", "apk", "airco", "acties"],
