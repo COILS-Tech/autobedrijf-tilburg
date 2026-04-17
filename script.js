@@ -1033,6 +1033,86 @@ function enhanceSmoothScroll() {
   });
 }
 
+// Cookie Consent Management
+function initCookieConsent() {
+  // Check if user has already made a choice
+  const cookieConsent = localStorage.getItem('cookieConsent');
+  
+  if (cookieConsent === null) {
+    // Show cookie banner after a short delay
+    setTimeout(() => {
+      showCookieBanner();
+    }, 1000);
+  }
+}
+
+function showCookieBanner() {
+  const banner = document.createElement('div');
+  banner.className = 'cookie-consent';
+  banner.innerHTML = `
+    <div class="cookie-consent__container">
+      <div class="cookie-consent__content">
+        <div class="cookie-consent__title">
+          <span class="cookie-consent__icon">🍪</span>
+          <span>Cookies & Privacy</span>
+        </div>
+        <p class="cookie-consent__text">
+          Wij gebruiken cookies om uw ervaring op onze website te verbeteren en om onze diensten te analyseren. 
+          Door op "Accepteren" te klikken, stemt u in met ons gebruik van cookies. 
+          Lees ons <a href="/cookie-policy-eu/" class="cookie-consent__link">cookiebeleid</a> en 
+          <a href="/privacy-policy/" class="cookie-consent__link">privacybeleid</a> voor meer informatie.
+        </p>
+      </div>
+      <div class="cookie-consent__actions">
+        <button class="cookie-consent__button cookie-consent__button--decline" onclick="handleCookieDecline()">
+          Weigeren
+        </button>
+        <button class="cookie-consent__button cookie-consent__button--accept" onclick="handleCookieAccept()">
+          Accepteren
+        </button>
+      </div>
+    </div>
+  `;
+  
+  document.body.appendChild(banner);
+  
+  // Trigger animation
+  setTimeout(() => {
+    banner.classList.add('show');
+  }, 100);
+}
+
+function handleCookieAccept() {
+  localStorage.setItem('cookieConsent', 'accepted');
+  localStorage.setItem('cookieConsentDate', new Date().toISOString());
+  hideCookieBanner();
+  
+  // Here you can initialize analytics or other cookie-dependent features
+  console.log('Cookies accepted');
+}
+
+function handleCookieDecline() {
+  localStorage.setItem('cookieConsent', 'declined');
+  localStorage.setItem('cookieConsentDate', new Date().toISOString());
+  hideCookieBanner();
+  
+  console.log('Cookies declined');
+}
+
+function hideCookieBanner() {
+  const banner = document.querySelector('.cookie-consent');
+  if (banner) {
+    banner.classList.remove('show');
+    setTimeout(() => {
+      banner.remove();
+    }, 500);
+  }
+}
+
+// Make functions globally available
+window.handleCookieAccept = handleCookieAccept;
+window.handleCookieDecline = handleCookieDecline;
+
 updateMeta();
 app.innerHTML = `${renderHeader()}${activeSlug === "home" ? renderHome() : renderContentPage()}${renderFooter()}`;
 bindMenu();
@@ -1048,3 +1128,6 @@ enhancePremiumHeader();
 addPremiumParallax();
 add3DCardEffect();
 enhanceSmoothScroll();
+
+// Initialize Cookie Consent
+initCookieConsent();
